@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iframe content</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 250px;
+        height: 250px;
+    }
+
+    .item {
+        font-size: 32px;
+        display: flex;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+    }
+
+    .item:nth-child(odd) {
+        background: #ccc;
+    }
+
+    .item.selected {
+        background: red;
+    }
+</style>
+<body>
+    <ul class="container">
+        <li class="item">1</li>
+        <li class="item">2</li>
+        <li class="item">3</li>
+        <li class="item">4</li>
+        <li class="item">5</li>
+        <li class="item">6</li>
+        <li class="item">7</li>
+        <li class="item">8</li>
+        <li class="item">9</li>
+        <li class="item">10</li>
+        <li class="item">11</li>
+        <li class="item">12</li>
+        <li class="item selected">13</li>
+        <li class="item">14</li>
+        <li class="item">15</li>
+        <li class="item">16</li>
+        <li class="item">17</li>
+        <li class="item">18</li>
+        <li class="item">19</li>
+        <li class="item">20</li>
+        <li class="item">21</li>
+        <li class="item">22</li>
+        <li class="item">23</li>
+        <li class="item">24</li>
+        <li class="item">25</li>
+    </ul>
+</body>
+</html>
