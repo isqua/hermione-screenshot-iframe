@@ -1,0 +1,4 @@
+node_modules
+*.log
+nooffset-report
+offset-report

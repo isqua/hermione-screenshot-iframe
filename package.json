@@ -1,0 +1,17 @@
+{
+  "name": "hermione-screenshot-iframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hermione",
+    "nooffset": "REPORT_PATH=nooffset-report BASE_URL=https://isqua.github.io/hermione-screenshot-iframe/test/nooffset/ npx hermione",
+    "offset": "REPORT_PATH=offset-report BASE_URL=https://isqua.github.io/hermione-screenshot-iframe/test/offset/ npx hermione"
+  },
+  "author": "isqua <isqua@isqua.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "hermione": "0.90.2",
+    "html-reporter": "2.24.0"
+  }
+}
